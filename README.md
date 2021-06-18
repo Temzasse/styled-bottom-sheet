@@ -120,6 +120,7 @@ function Example() {
 
       {/* Opens to 400 since initial index is 1 */}
       <Sheet
+        ref={ref}
         isOpen={isOpen}
         onClose={() => setOpen(false)}
         snapPoints={[600, 400, 100, 0]}
